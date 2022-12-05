@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import { nanoid } from 'nanoid';
-import { ContactsWrapp } from './ContactForm.module';
+import { ContactsWrapp } from './Form.styled';
 
 export default class FormAddContacts extends Component {
   state = {
@@ -61,7 +61,7 @@ export default class FormAddContacts extends Component {
               required
             />
           </div>
-          <button className="contacts__button">Add contact</button>
+          <button>Add contact</button>
         </form>
       </ContactsWrapp>
     );

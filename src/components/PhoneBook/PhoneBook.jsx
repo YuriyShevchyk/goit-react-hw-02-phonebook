@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid';
 import { Component } from 'react';
-import FormAddContacts from './ContactForm/ContactForm';
+import FormAddContacts from './Form/Form';
 import PhoneBookList from './ContactList/ContactList';
 import Filter from './Filter/Filter';
 import { Container } from './PhoneBook.styled';
