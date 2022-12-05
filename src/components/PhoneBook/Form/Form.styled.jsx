@@ -23,3 +23,7 @@ export const ContactsWrapp = styled.div`
     }
   }
 `;
+
+export const Button = styled.button`
+  background-color: lightblue;
+`;

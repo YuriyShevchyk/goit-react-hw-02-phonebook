@@ -1,13 +1,14 @@
 import PropTypes from 'prop-types';
+import {DeleteBtn} from './ContactList.styled'
 
 export default function PhoneBookList({ items, removeContact }) {
   const elements = items.map(({ name, number, id }) => {
     return (
       <li key={id}>
         {name}: {number}{' '}
-        <button type="submit" onClick={() => removeContact(id)}>
+        <DeleteBtn type="submit" onClick={() => removeContact(id)}>
           Delete
-        </button>
+        </DeleteBtn>
       </li>
     );
   });
