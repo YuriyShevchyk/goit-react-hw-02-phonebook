@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import { nanoid } from 'nanoid';
 import { FilterWrapp } from './Filter.styled';
+
+
 export default function Filter({ filter, handleChange }) {
   const filterID = nanoid();
   return (
